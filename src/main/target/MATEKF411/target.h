@@ -62,10 +62,10 @@
 #define SPI2_MISO_PIN           PB14
 #define SPI2_MOSI_PIN           PB15
 
-#define USE_OSD
-#define USE_MAX7456
-#define MAX7456_SPI_BUS         BUS_SPI2
-#define MAX7456_CS_PIN          PB12
+//#define USE_OSD
+//#define USE_MAX7456
+//#define MAX7456_SPI_BUS         BUS_SPI2
+//#define MAX7456_CS_PIN          PB12
 
 // *************** UART *****************************
 #define USE_VCP
@@ -74,7 +74,7 @@
 
 #define USE_UART1
 #define UART1_TX_PIN            PA9
-#define UART1_RX_PIN            PA10
+#define UART1_RX_PIN            PB3
 
 #define USE_UART2
 #define UART2_TX_PIN            PA2
@@ -158,7 +158,7 @@
 #define WS2811_PIN                      PA8
 #endif
 // ***************  OTHERS *************************
-#define DEFAULT_FEATURES        (FEATURE_TX_PROF_SEL | FEATURE_OSD | FEATURE_CURRENT_METER | FEATURE_VBAT | FEATURE_TELEMETRY | FEATURE_SOFTSERIAL )
+#define DEFAULT_FEATURES        (FEATURE_TX_PROF_SEL | FEATURE_CURRENT_METER | FEATURE_VBAT | FEATURE_TELEMETRY )
 
 #define USE_SPEKTRUM_BIND
 #define BIND_PIN                PA10 //  RX1

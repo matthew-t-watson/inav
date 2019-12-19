@@ -175,3 +175,7 @@
 #define TARGET_IO_PORTD         (BIT(2))
 
 #define MAX_PWM_OUTPUT_PORTS       7
+
+
+#define USE_RX_MSP // MattW - Enable RX update over MSP
+#define USE_MSP_RC_OVERRIDE // MattW - Allow MSP MSP_SET_RAW_RC message to override RC channels with a bitmask
